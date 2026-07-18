@@ -1,4 +1,4 @@
-# ❄️ Snowflake Training – Class 16
+# ❄️ Data sharing,Data Masking,Encryption
 
 ## 📚 Topics Covered
 
@@ -112,7 +112,7 @@ Attempting to modify data
 DELETE FROM DATA_SHARE_DB.BRONZE.ORDERS;
 ```
 
-❌ This fails because shared databases are **Read Only**.
+NOTE:-This fails because shared databases are **Read Only**.
 
 ---
 
@@ -435,13 +435,3 @@ Hashing is one-way and cannot be reversed.
 
 # Summary
 
-In this class you learned:
-
-- Snowflake Secure Data Sharing
-- Reader Accounts
-- Dynamic Data Masking
-- Role-Based Security
-- AES Encryption
-- SHA-256 Hashing
-- Encryption & Decryption
-- Best Practices for Protecting Sensitive Data
